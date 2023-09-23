@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fix/static/css/main.814a1cc8.css",
-    "main.js": "/fix/static/js/main.b13cc2f4.js",
+    "main.js": "/fix/static/js/main.ae39d79b.js",
     "static/media/iphone1.png": "/fix/static/media/iphone1.42361fa4eb09fc1d4a0e.png",
     "index.html": "/fix/index.html",
     "main.814a1cc8.css.map": "/fix/static/css/main.814a1cc8.css.map",
-    "main.b13cc2f4.js.map": "/fix/static/js/main.b13cc2f4.js.map"
+    "main.ae39d79b.js.map": "/fix/static/js/main.ae39d79b.js.map"
   },
   "entrypoints": [
     "static/css/main.814a1cc8.css",
-    "static/js/main.b13cc2f4.js"
+    "static/js/main.ae39d79b.js"
   ]
 }
