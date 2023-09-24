@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Book from "./pages/Book";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { createBrowserRouter,RouterProvider,Outlet,ScrollRestoration } from "react-router-dom";
+import { createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 
 const Layout=()=>{
   return(
@@ -21,7 +21,7 @@ const router= createBrowserRouter([
     element:<Layout/>,
     children:[
       {
-        path:"/",
+        path:"/fix",
         element:<Home/>,
       },
       {
