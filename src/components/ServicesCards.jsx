@@ -6,7 +6,7 @@ import iphone2 from './../assets/pngegg.png'
 function ServicesCards() {
   return (
     <div className='mx-2 md:mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center'>
-      <div className='w-full'>
+      {/* <div className='w-full'>
         <div className='w-full h-96 cursor-pointer'>
           <img className='h-full object-cover hover:scale-110 duration-500' src={brokenPhone} alt='phonea' />
         </div>
@@ -19,7 +19,7 @@ function ServicesCards() {
             <li>Mic Replacement</li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className='w-full'>
         <div className='w-full h-96 cursor-pointer'>
           <img className='h-full object-cover hover:scale-110 duration-500' src={samsung} alt='phonea' />
