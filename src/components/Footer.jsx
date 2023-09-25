@@ -1,24 +1,32 @@
-import React from 'react';
+import React,{useEffect}from 'react';
 import { FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import logo from './../assets/LOGO1FIXBLACK(2).png'
+import { useScroll } from './../context/ScrollContext';
 
 function Footer() {
   const handleSendToWhatsApp = () => {
     const textareaValue = document.getElementById('messageTextarea').value;
     const phoneNumber = '+27769314241';
-
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       textareaValue
     )}`;
-
-    // Open WhatsApp in a new tab/window with the pre-filled message.
     window.open(whatsappUrl, '_blank');
   };
+  const { scrollToFooter, setScrollToFooter } = useScroll();
+  useEffect(() => {
+    if (scrollToFooter) {
+      const footerElement = document.getElementById('footer');
+      footerElement.scrollIntoView({ behavior: 'smooth' });
+
+      setScrollToFooter(false);
+    }
+  }, [scrollToFooter, setScrollToFooter]);
 
   return (
     <div className='bg-black text-[#949494] py-10 sm:py-20 font-titleFont'>
-      <div className='max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5'>
+      <div id='footer' className='max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5'>
         <div className='flex flex-col gap-5'>
-          <img className='w-32' src='#' alt='Logo' />
+          <img className='w-32' src={logo} alt='Logo' />
           <p className='text-white text-sm tracking-wide'>ShakesRepair.com</p>
           <div className='flex gap-5 text-lg text-gray-500'>
             <FaInstagram className='hover:text-white duration-300 cursor-pointer' />

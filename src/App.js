@@ -4,6 +4,7 @@ import Book from "./pages/Book";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
+import { ScrollProvider } from "./context/ScrollContext";
 
 const Layout=()=>{
   return(
@@ -35,7 +36,10 @@ const router= createBrowserRouter([
 function App() {
   return (
     <div className="font-bodyFont">
-      <RouterProvider router={router} />
+      <ScrollProvider>
+        <RouterProvider router={router} />
+      </ScrollProvider>
+      
     </div>
 
   );
