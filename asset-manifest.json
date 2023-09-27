@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fix/static/css/main.97349dd7.css",
-    "main.js": "/fix/static/js/main.3fe24a44.js",
+    "main.css": "/fix/static/css/main.1d83e3fd.css",
+    "main.js": "/fix/static/js/main.2c97581f.js",
     "static/media/pngegg(1).png": "/fix/static/media/pngegg(1).82e38965f6bc90e47147.png",
     "static/media/iphone1.png": "/fix/static/media/iphone1.42361fa4eb09fc1d4a0e.png",
     "static/media/pngegg.png": "/fix/static/media/pngegg.4197d7f86c0869a56bd7.png",
     "static/media/LOGO1FIX.png": "/fix/static/media/LOGO1FIX.475ce26b74938a866d38.png",
     "static/media/LOGO1FIXBLACK(2).png": "/fix/static/media/LOGO1FIXBLACK(2).436cd0363c48c9517685.png",
     "index.html": "/fix/index.html",
-    "main.97349dd7.css.map": "/fix/static/css/main.97349dd7.css.map",
-    "main.3fe24a44.js.map": "/fix/static/js/main.3fe24a44.js.map"
+    "main.1d83e3fd.css.map": "/fix/static/css/main.1d83e3fd.css.map",
+    "main.2c97581f.js.map": "/fix/static/js/main.2c97581f.js.map"
   },
   "entrypoints": [
-    "static/css/main.97349dd7.css",
-    "static/js/main.3fe24a44.js"
+    "static/css/main.1d83e3fd.css",
+    "static/js/main.2c97581f.js"
   ]
 }
