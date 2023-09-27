@@ -14,7 +14,7 @@ function BookApp() {
   };
 
   const handleSendToWhatsApp = () => {
-    const phoneNumber = '+27769314241';
+    const phoneNumber = '+27670174107';
     const message = `Hi, My name is ${name}\nPhone model:${model}\nProblem :${issue}\nBook Date :${selectedDate.toDateString()}`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
